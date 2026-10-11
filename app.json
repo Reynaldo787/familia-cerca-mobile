@@ -4,10 +4,8 @@
     "slug": "familia-cerca-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#FBF8F3"
     },
@@ -20,21 +18,10 @@
     },
     "android": {
       "package": "com.familiacerca.app",
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FBF8F3"
-      },
       "permissions": [
         "INTERNET"
       ]
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "REEMPLAZA_ESTO_LUEGO"
-      }
     }
   }
 }
+   
