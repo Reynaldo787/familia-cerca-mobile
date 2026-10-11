@@ -25,5 +25,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Init EAS project
+        run: eas init --account reynaldobravo --non-interactive
+
       - name: Build APK
         run: eas build --platform android --profile preview --non-interactive
