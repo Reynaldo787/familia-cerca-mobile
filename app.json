@@ -19,7 +19,9 @@
     "android": {
       "package": "com.familiacerca.app",
       "permissions": [
-        "INTERNET"
+        "INTERNET",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
       ]
     }
   }
