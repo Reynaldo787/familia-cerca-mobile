@@ -4,11 +4,8 @@
     "slug": "familia-cerca-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
+    "icon": "./icon.png",
     "userInterfaceStyle": "light",
-    "splash": {
-      "resizeMode": "contain",
-      "backgroundColor": "#FBF8F3"
-    },
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -25,5 +22,4 @@
       ]
     }
   }
-}
-   
+}  
